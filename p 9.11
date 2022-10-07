@@ -1,0 +1,17 @@
+/*
+author:Alam shaikh
+date:07/10/2022
+program to find
+*/
+#include <stdio.h>
+int main() 
+{
+    int i;
+    int times;
+    printf("enter times");
+    scanf("%d",&times);
+    for(i=1;times>=i;i++)
+    {
+    printf("\nHello world %d",i);
+}
+}
